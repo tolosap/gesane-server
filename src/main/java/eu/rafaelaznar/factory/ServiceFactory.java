@@ -687,7 +687,8 @@ public class ServiceFactory {
                         break;
                 }
                 break;
-            case "paciente":
+                
+                case "paciente":
                 PacienteSpecificServiceImplementation oPacienteService = new PacienteSpecificServiceImplementation(oRequest);
                 switch (op) {
                     case "getmetadata":
